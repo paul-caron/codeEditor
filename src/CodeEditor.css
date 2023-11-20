@@ -1,0 +1,89 @@
+
+.codeEditor{
+  position:relative;
+  border-radius:10px;
+  width:61%;
+  height:61vh;
+  margin: 0 auto;
+  padding: 0px;
+  border: 0px;
+  display: inline-block;
+}
+
+.textEditing{
+  margin: 0px 0px 0px 30pt;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  font-size: 15pt !important;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace !important;
+  line-height: 20pt !important;   
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #0000;
+  color: #0000;                                                            
+  caret-color: #777f;
+  overflow: auto;
+  white-space: pre;
+  resize: none;
+  text-align: left;
+  display:block;
+  text-indent:0px;
+}
+
+.codeHighlighting, code{
+  padding: 0px !important;
+  border: 0px !important;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  font-size: 15pt !important;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace !important;
+  line-height: 20pt !important;   
+  position: absolute;
+  top: 0px !important;
+  left: 0px !important;
+  overflow: auto !important;
+  white-space: pre !important;
+  z-index:0;
+  text-align: left;
+  display:block;
+  text-indent:0px;
+}
+
+.codeHighlighting{
+  margin: 0px 0px 0px 30pt !important;
+}
+
+code{
+  margin: 0px 0px 0px 0px !important;
+}
+
+.lineNumbers {
+  font-size: 15pt;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  line-height: 20pt;
+  display: block;
+  margin: 0px 0px 0px 0px;                                                 
+  padding: 0px 0px 0px 0px;
+  border: 0px solid black;
+  width: 30pt;
+  height: 100%;
+  z-index: 1;
+  background-color: #0007;
+  color: #fff7;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: left;
+  overflow: auto;
+  white-space: pre;
+}
+
+.textEditing:focus{
+  outline: none;
+}
