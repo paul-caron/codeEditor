@@ -1,9 +1,23 @@
+# Running the Editor
 
-# Available Scripts
+Clone the repo
 
-In the project directory, you can run:
+```sh
+git clone https://www.github.com/paul-caron/codeEditor
+```
 
-### `npm start`
+Install
+
+```sh
+cd codeEditor
+npm install
+```
+
+Run the code
+
+```sh
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
